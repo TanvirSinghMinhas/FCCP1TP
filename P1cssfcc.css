@@ -37,7 +37,7 @@ body, html{
 
 .picture1{
     background-image: url('https://www.lefthudson.com/wp-content/uploads/2019/11/obama-wallpaper-fresh-barack-obama-backgrounds-4k-download-this-year-of-obama-wallpaper.jpg');
-    min-height: 400px;
+    min-height: 100vh;
 }
 
 .picture2{
