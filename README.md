@@ -9,6 +9,7 @@ The 44th President of the United States: Barack Obama
 </title>
 <link href="P1cssfcc.css" rel="stylesheet" type="text/css">
 </head>
+
     <body>
         <main>
         <div class="picture1">
