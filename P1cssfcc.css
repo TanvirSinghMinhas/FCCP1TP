@@ -11,7 +11,7 @@ body, html{
 .picture1{
     position:relative;
     opacity:0.70;
-    background-position:bottom;
+    background-position:top left;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -120,3 +120,19 @@ body, html{
      .picture1 .picture2 .picture3 .picture4{
          background-attachment: scroll;
      }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
