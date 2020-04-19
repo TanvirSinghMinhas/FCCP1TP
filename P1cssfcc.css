@@ -1,4 +1,5 @@
-body, html{
+/*The style of this page is of a parallax effect*/
+body, html{                         /*Formatting for body and html elements*/
     height: 100%;
     margin:0;
     font-size: 16px;
@@ -8,70 +9,69 @@ body, html{
     color: #666666;
 }
 
-.picture1{
+.picture1{                          /*Formatting of picture 1.*/
     position:relative;
     opacity:0.70;
     background-position:top left;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;   /*Picture is fixed, so this will create a parallax effect*/
 }
 
-.picture2{
+.picture2{                          /*Formatting of picture 2*/
     position:relative;
     opacity:0.70;
     background-position:center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;  /*Picture is fixed, so this will create a parallax effect*/
 }
 
-.picture3, .picture4{
+.picture3, .picture4{               /*Formatting of pictures 3,4*/
     position:relative;
     opacity:0.70;
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;  /*Picture is fixed, so this will create a parallax effect*/
 }
 
-.picture1{
+.picture1{                          /*Importing picture 1 and setting it to fill whole inital screen*/
     background-image: url('https://www.lefthudson.com/wp-content/uploads/2019/11/obama-wallpaper-fresh-barack-obama-backgrounds-4k-download-this-year-of-obama-wallpaper.jpg');
     min-height: 100vh;
 }
 
-.picture2{
+.picture2{                             /*Importing picture 2 and setting its minimum height*/
     background-image: url('https://www.history.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_620/MTU3ODc5MDgyNDAyMTk1MTY3/usa-politics-barack-obama-and-his-mother-childhood-photo.jpg');
     min-height: 400px;
 }
 
-.picture3{
+.picture3{                              /*Importing picture 3 and setting its minimum height*/
     background-image: url('https://cms.qz.com/wp-content/uploads/2016/12/gettyimages-89866874-1-e1482861951256.jpg?quality=75&strip=all&w=1600&h=900&crop=1');
     min-height: 400px;  
 }
 
-.picture4{
+.picture4{                              /*Importing picture 4 and setting its minimum height*/
     background-image: url('https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/president-barack-obama-taking-questions-from-audience.jpg?itok=Oxm61tzK');
     min-height: 400px;  
 }
 
-.section{
+.section{                               /*Formatting all the ovverall background characteristics(dark,light)*/
     text-align:center;
     padding: 50px 80px;
 }
 
-.sectiondark{
+.sectiondark{                           /*Formatting the dark section, dark background of certain text*/
     background-color:#282e34;
     color: #dddddd;
-
 }
 
-.sectionlight{
+.sectionlight{                          /*Formatting the light section, dark background of certain text*/
     background-color: white;
     color: #666666;
 }
 
-.p1text, .p2text, .p3text, .p4text{
+.p1text, .p2text, .p3text, .p4text{     /*Broad formatting of text p1,p2,p3,p4*/
     position: absolute;
     top:50%;
     width: 100%;
@@ -81,7 +81,7 @@ body, html{
     letter-spacing:8px;
     text-transform:uppercase;
 }
-.p1text{
+.p1text{                                /*Special, different formatting of p1 text*/
     position: absolute;
     top:50%;
     width: 100%;
@@ -92,33 +92,33 @@ body, html{
 
 }
 
- .border{
+ .border{                              /*Border around text characteristics*/                        
     background-color: #111;
     color:#fff;
     padding: 20px;
  }
 
- a:link {
+ a:link {                               /*Link color initially*/                     
     color: pink;
     background-color: transparent;
     text-decoration: none;
   }
   
-  a:visited {
+  a:visited {                           /*Link color after opening and visiting*/
     color: pink;
     background-color: transparent;
     text-decoration: none;
   }
   
-  a:hover {
+  a:hover {                             /*Link color when hovering over*/
     color: pink;
     background-color: transparent;
     text-decoration: underline;
   }
 
- @media(max-width:568px){
+ @media(max-width:568px){               /*Criteria for when the maximum width of a screen is 568px*/
      .picture1 .picture2 .picture3 .picture4{
-         background-attachment: scroll;
+         background-attachment: scroll;  /*Pictures are stationary and will not move like before, thus terminating the parallax effect*/
      }}
 
 
